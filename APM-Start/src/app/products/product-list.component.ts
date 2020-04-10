@@ -3,11 +3,10 @@ import { IProduct } from "./product";
 import { ProductService } from "./product.service";
 
 @Component({
-  selector: "pm-products",
   templateUrl: "./product-list.component.html",
   styleUrls: ["./product-list.component.css"],
 })
-export class ProductListCompnent implements OnInit {
+export class ProductListComponent implements OnInit {
   pageTitle: string = "Product List";
   imageWidth: number = 50;
   imageMargin: number = 2;
